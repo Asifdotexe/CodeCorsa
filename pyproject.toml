@@ -1,0 +1,36 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "language-market-analyzer"
+version = "0.1.0"
+description = "A project to analyze programming language demand and usage by scraping job boards and forums."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT License" }
+authors = [
+  { name = "Asif Sayyed", email = "asifdotexe@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+dependencies = [
+    "requests==2.32.4",
+    "beautifulsoup4==4.13.4",
+]
+
+[project.optional-dependencies]
+dev = ["flake8"]
+
+[project.urls]
+Homepage = "https://github.com/Asifdotexe/Programming-Language-Market-Analysis"
+Repository = "https://github.com/Asifdotexe/Programming-Language-Market-Analysis"
+"Bug Tracker" = "https://github.com/Asifdotexe/Programming-Language-Market-Analysis/issues"
