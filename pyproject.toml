@@ -28,7 +28,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["flake8"]
+dev = [
+    "flake8",
+    "ipykernel==6.30.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/Asifdotexe/Programming-Language-Market-Analysis"
